@@ -1,5 +1,5 @@
 import random
-import doctest
+import doctest as dt
 
 
 def randomNumber():
@@ -26,7 +26,7 @@ def test_sortListHighToLow():
     >>> sortListHighToLow(list)
     [{'id': 9, 'age': 100}, {'id': 8, 'age': 90}, {'id': 7, 'age': 80}, {'id': 6, 'age': 70}, {'id': 5, 'age': 60}, {'id': 4, 'age': 50}, {'id': 3, 'age': 40}, {'id': 2, 'age': 30}, {'id': 1, 'age': 20}, {'id': 0, 'age': 10}]
     """
-    doctest.run_docstring_examples(test_sortListHighToLow, globals(), True)
+    dt.run_docstring_examples(test_sortListHighToLow, globals(), True)
 
 
 if __name__ == '__main__':
