@@ -16,7 +16,6 @@ class Circle:
         return print('The perimeter of the circle is: {}'.format(perimeter))
 
 
-# create a test case for the class Circle with doctest
 def test_circle():
     """
     >>> c = Circle(5)
