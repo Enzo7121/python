@@ -27,7 +27,7 @@ def findSequence(matrix):
 # create a test case for the function findSequence with generated matrix and check if the output is correct or not using doctest
 def test_findSequence():
     """
-    >>> findSequence([[1, 2, 3, 4, 6], [2, 4, 5, 7, 6], [3, 2, 1, 7, 10], [4, 6, 3, 2, 9], [9, 4, 7, 7, 4]])
+    >>> findSequence([[1, 2, 3, 4, 6], [2, 4, 5, 7, 6], [3, 2, 1, 7, 10], [4, 6, 7, 2, 9], [9, 4, 7, 7, 4]])
     Sequence starts at: 0, 0 and ends at: 3, 0
     """
     dt.run_docstring_examples(test_findSequence, globals(), True)
