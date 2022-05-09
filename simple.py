@@ -16,4 +16,7 @@ def sortListHighToLow(list):
     return list
 
 
-print(sortListHighToLow(genList()))
+list = genList()
+
+
+print(sortListHighToLow(list))
